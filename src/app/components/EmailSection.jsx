@@ -62,7 +62,7 @@ const EmailSection = () => {
           </Link>
         </div>
       </div>
-      <div>
+      {/* <div>
         <form className='flex flex-col gap-6' onSubmit={handleSubmit}>
           <div className='mb-6'>
             <label htmlFor='email' type='email' className='text-white block mb-2 text-sm font-medium'>
@@ -120,7 +120,7 @@ const EmailSection = () => {
             )
           }
         </form>
-      </div>
+      </div> */}
     </section>
   )
 }
